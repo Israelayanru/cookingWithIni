@@ -1,0 +1,61 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    background-image: url('./images/black-stone-cooking-background-spices-600nw-1914852676.jpg'); 
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #181818;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+header nav {
+    display: flex; 
+    gap: 15px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header nav a:hover {
+    opacity: 0.8;
+    font-size: 18px; 
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.paragraph-el{
+    font-size: 20px;
+    padding: 5px 30px 30px 30px;
+}
+
+.a-hd{
+    padding: 100px 0px 10px 30px;
+    flex-wrap: wrap;
+}
+
+.info{
+    padding-left: 30px;
+}
+
+footer{
+    margin-top: 250px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    background: #181818;
+}
